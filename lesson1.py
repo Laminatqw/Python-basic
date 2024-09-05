@@ -27,7 +27,7 @@
 # st1 = []
 # st2 = []
 #
-# 
+#
 # for i in st:
 #     if i.isdigit():
 #         st1.append(i)
