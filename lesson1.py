@@ -145,38 +145,38 @@
 # 3) вывести табличку множення за допомогою цикла while
 # 4) переробити це завдання під меню
 
-list = [22, 3,5,2,8,2,-23, 8,23,5]
-# print(min(list))
-
-def clear(list):
-    copy = list.copy()
-    print(set(copy))
-# clear(list)
-def replace(list):
-    for i in range(3, len(list), 4):
-        list[i] = 'X'
-    print(list)
-# replace(list)
-
-def square(n):
-    for i in range(n):
-        if i == 0 or i == n-1:
-            print('*'*n)
-        else:
-            print('*'+ ' '*(n-2) + '*')
-# square(4)
-def whule():
-    size = 9
-    i = 1
-    while i <= size:
-        j = 1
-        while j <= size:
-            res = i*j
-            print(res, end=' ')
-            j+=1
-
-        print()
-        i+=1
-
-
-whule()
+# list = [22, 3,5,2,8,2,-23, 8,23,5]
+# # print(min(list))
+#
+# def clear(list):
+#     copy = list.copy()
+#     print(set(copy))
+# # clear(list)
+# def replace(list):
+#     for i in range(3, len(list), 4):
+#         list[i] = 'X'
+#     print(list)
+# # replace(list)
+#
+# def square(n):
+#     for i in range(n):
+#         if i == 0 or i == n-1:
+#             print('*'*n)
+#         else:
+#             print('*'+ ' '*(n-2) + '*')
+# # square(4)
+# def whule():
+#     size = 9
+#     i = 1
+#     while i <= size:
+#         j = 1
+#         while j <= size:
+#             res = i*j
+#             print(res, end=' ')
+#             j+=1
+#
+#         print()
+#         i+=1
+#
+#
+# whule()

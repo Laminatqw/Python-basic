@@ -49,31 +49,31 @@
 # 4) створити декоратор котрий буде підраховувати скільки разів була запущена функція продекорована цим декоратором,
 # та буде виводити це значення після виконання функцій
 
-def decor(func):
-    count = 1
-    def inner():
-        print('----------')
-        nonlocal count
-        print('counter = ', count)
-        func()
-        count +=1
-    return inner
-
-
-
-@decor
-def func1():
-    print('hello')
-
-
-@decor
-def func2():
-    print('hello2')
-
-func1()
-func2()
-func1()
-func1()
-func2()
-func2()
+# def decor(func):
+#     count = 1
+#     def inner():
+#         print('----------')
+#         nonlocal count
+#         print('counter = ', count)
+#         func()
+#         count +=1
+#     return inner
+#
+#
+#
+# @decor
+# def func1():
+#     print('hello')
+#
+#
+# @decor
+# def func2():
+#     print('hello2')
+#
+# func1()
+# func2()
+# func1()
+# func1()
+# func2()
+# func2()
 
